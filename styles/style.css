@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  display: flex;
+  gap: 20px;
+  width: 70%;
+  overflow-x: scroll;
+}
+
+img{
+  width: 450px;
+  height: 350px;
+}
+
+div::-webkit-scrollbar{
+  height: 8px;
+}
+
+div::-webkit-scrollbar-thumb{
+  background-color: black;
+        
+}
